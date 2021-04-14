@@ -1,5 +1,0 @@
-gdalwarp -tr 0.0009999999999999974187 -0.001000000000000000238-tap sample_tiff.tif ./DEM/SRTM1Arc_DEM.tif SRTM_aligned
-
-
-
-gdalwarp -t_srs EPSG:32721 -tr 109.3550171711887486 -109.3550171711887486-tap sample_tiff_UTM.tif ./DEM/SRTM1Arc_DEM.tif SRTM_aligned_UTM.tif
